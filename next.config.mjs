@@ -21,6 +21,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/docs-template/' : '',
   experimental: {
     scrollRestoration: true,
   },
