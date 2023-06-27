@@ -17,6 +17,10 @@ const withMDX = nextMDX({
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   experimental: {
     scrollRestoration: true,
   },
